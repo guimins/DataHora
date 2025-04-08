@@ -2,8 +2,6 @@
 
   Uma aplicação simples que exibe a data e hora atuais em tempo real.
 
-  ![Demonstração do DataHora](datahora-demo.gif)
-
   ## Funcionalidades
 
   - Exibe a data atual no formato `DD/MM/AAAA`.
