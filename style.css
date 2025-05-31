@@ -1,0 +1,56 @@
+/* Resetando o estilo padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corpo da página */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  /* Contêiner do relógio */
+  .clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1e1e1e;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Relógio em si */
+  .clock {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  /* Hora */
+  .time {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #b668fa;
+  }
+  
+  /* Data */
+  .date {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #ccc;
+  }
+  
+  /* Efeitos de transição para uma atualização suave */
+  .time, .date {
+    transition: all 0.3s ease-in-out;
+  }
+  
