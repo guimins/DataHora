@@ -4,7 +4,7 @@
 
   ## Funcionalidades
 
-  - Exibe a data atual no formato `MM/DD/AAAA`.
+  - Exibe a data atual no formato `DD/MM/AAAA`.
   - Exibe a hora atual no formato `HH:MM:SS`.
   - Atualização em tempo real a cada segundo.
 
